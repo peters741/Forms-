@@ -1,0 +1,70 @@
+
+    h1{
+        color: white;
+    }
+#mail,#tel{
+    width: 96%;
+    float: inline-start;
+}
+#add1{
+    float: left;
+}
+#add{
+    justify-content: center;
+    float:calc(15px,20px);
+}
+#add{
+    display: inline;
+    float:inherit;
+    justify-content: space-evenly;
+}
+#naam{
+    width: 45%;
+}
+#name{
+    display: inline;
+float: inline-start;
+width: 46%;
+justify-content: space-evenly;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#30347B ,#2EA8B8, #2f6796);
+}
+input{ 
+    display: flex;
+    padding: 10px;
+    padding: 10px;
+    border: 0.2px solid white;
+    background: linear-gradient(#6092B2,rgb(154, 183, 192));
+          width: 300px;
+          
+    border-radius: 7px;
+}
+#btn{
+    width: fit-content;
+    background-color:#2f6796 ;
+    float: right;
+}
+#btn:hover{
+    color: #30347B;
+    cursor: pointer;
+}
+::placeholder{
+    color: rgb(58, 52, 52);
+}
+
+
+li{
+float: left;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#last{
+    height: 100px;
+}
+label{
+
+    color: white;
+}

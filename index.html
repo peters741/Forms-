@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><center>
+    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 40px;">Alumni Membership Application Form</h1>
+    <br><br><br><div>
+        <form id="forms">
+            <ol>
+          <li><label>Name</label> </li> <br><br>
+            <input id="name" type="text" placeholder="First name">
+            <input id="naam" type="text" placeholder="Last name"><br>
+            <li><label>Email</label> </li><br><br>
+            <input id="mail" type="email"  placeholder="Email">&nbsp;<br>
+            <li><label>Phone number</label> </li><br><br>
+            <input id="tel"  type="tel" placeholder="Phone"><br><br>
+            
+<section>
+    <br>
+    <li><label id="address"> What is your Address ?</label> </li><br><br>
+            <input style="width: 96%;" type="text" placeholder="Address"><br>
+            <input id="add" type="text" placeholder="State address" style="width: 215px;">
+            <input id="add" type="text" placeholder="postal code"  style="width: 150px;">
+            <input id="add" class="add" type="search" placeholder="select country"  style="width: 150px;">
+            </section><br><br>
+            <li><label>
+                Occupation</label> </li><br><br>
+            <input style="width: 96%; type="text"><br>
+            <li><label>
+                Period of study</label> </li><br><br>
+            <input style="width: 96%; type="text"><br>
+           <section>
+            <li><label>Kindly provide details of other alumni known to you that will love to join the association</label> </li> <br><br>
+            <input id="name" type="text" placeholder="Name">
+            <input id="naam" type="email" placeholder="Email"><br>
+            
+    
+           </section>
+           <li><label>Additional comments and suggestions</label> </li><br><br>
+           <input id="last" style="width: 96%;"type="text">
+           <br><br>
+           <input id="btn" type="submit" onclick="myfun()">
+           <script>
+            function myfun()
+            {
+                alert(" succesfully Your detail's are submitted ")
+            }
+           </script>
+
+            
+        </form>
+    </div>
+
+    </center>
+    
+</body>
+</html>
