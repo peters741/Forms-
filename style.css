@@ -42,6 +42,10 @@ input{
           
     border-radius: 7px;
 }
+input:hover{
+    border: 2px solid rgb(52, 79, 129);
+}
+}
 #btn{
     width: fit-content;
     background-color:#2f6796 ;
