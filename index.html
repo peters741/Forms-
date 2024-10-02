@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body><center>
-    <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 40px;">Alumni Membership Application Form</h1>
-    <br><br><br><div>
+    <fieldset>
+<legend><h1>Alumni Membership Application Form</h1>
+        <br><br><br></legend>
         <form id="forms">
             <ol>
           <li><label>Name</label> </li> <br><br>
@@ -23,16 +24,23 @@
     <br>
     <li><label id="address"> What is your Address ?</label> </li><br><br>
             <input style="width: 96%;" type="text" placeholder="Address"><br>
-            <input id="add" type="text" placeholder="State address" style="width: 215px;">
-            <input id="add" type="text" placeholder="postal code"  style="width: 150px;">
-            <input id="add" class="add" type="search" placeholder="select country"  style="width: 150px;">
+            <input id="add1" type="text" placeholder="State address" style="width: 110px;">
+            <input id="add2" type="text" placeholder="postal code"  style="width: 130px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select id="add3">
+                <option value="select">Select country</option>
+                <option> India</option>
+                <option> Usa</option>
+                <option > Europe</option>
+                <option> Russia</option>
+                <option> Australia</option>
+            </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
             </section><br><br>
             <li><label>
                 Occupation</label> </li><br><br>
-            <input style="width: 96%; type="text"><br>
+            <input style="width: 96%"; type="text" placeholder="T"><br>
             <li><label>
                 Period of study</label> </li><br><br>
-            <input style="width: 96%; type="text"><br>
+            <input style="width: 96%;" type="text" placeholder="T"><br>
            <section>
             <li><label>Kindly provide details of other alumni known to you that will love to join the association</label> </li> <br><br>
             <input id="name" type="text" placeholder="Name">
@@ -54,7 +62,7 @@
             
         </form>
     </div>
-
+</fieldset>
     </center>
     
 </body>

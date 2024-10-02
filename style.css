@@ -2,6 +2,9 @@
     h1{
         color: white;
     }
+    fieldset{
+        padding: 35px;
+    }
 #mail,#tel{
     width: 96%;
     float: inline-start;
@@ -9,14 +12,26 @@
 #add1{
     float: left;
 }
-#add{
-    justify-content: center;
-    float:calc(15px,20px);
+ol{
+    color: rgba(6, 240, 25, 0.884);
 }
-#add{
+#add2{
+    display: inline;
+
+}
+#add3{
     display: inline;
     float:inherit;
-    justify-content: space-evenly;
+    padding: 9px;
+     width: 100px;
+    border: 0.2px solid white;
+    background: linear-gradient(#6092B2,rgb(154, 183, 192));    
+    border-radius: 7px;
+    
+}
+#add3:hover{
+    border: 0.5px solid rgb(61, 190, 223);
+
 }
 #naam{
     width: 45%;
@@ -43,12 +58,12 @@ input{
     border-radius: 7px;
 }
 input:hover{
-    border: 2px solid rgb(52, 79, 129);
+    border: 0.5px solid rgb(61, 190, 223);
 }
 
 #btn{
     width: fit-content;
-    background-color:#2f6796 ;
+    background-color:#19a6be ;
     float: right;
 }
 #btn:hover{
